@@ -61,21 +61,45 @@
 <prescription type="service" class="com.tencent.qalsdk.service.QalService" sender="any" />
 <prescription type="service" class="com.tencent.qalsdk.service.QalAssistService" sender="any" />
 <prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
-<!-- Per app limitation -->
-<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.ZhanqiPushService" sender="any" />
-<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.gameabc.zhanqiAndroid.service.GetuiIntentService" sender="any" />
-<prescription type="service" package="com.gameabc.zhanqiAndroid" class="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" sender="any" />
-<prescription type="service" package="com.panda.videoliveplatform" class="tv.panda.component.PSService" sender="any" />
-<prescription type="service" package="air.tv.douyu.android" class="tv.douyu.framework.service.DouyuDownService" sender="any" />
-<prescription type="service" package="air.tv.douyu.android" class="com.douyu.message.service.MessageService" sender="any" />
-<prescription type="service" package="air.tv.douyu.android" class="com.douyu.yuba.service.LaunchService" sender="any" />
-<prescription type="service" package="air.tv.douyu.android" class="com.douyu.push.platform.getui.GetuiPushService" sender="any" />
-<prescription type="service" package="air.tv.douyu.android" class="com.douyu.push.platform.getui.GetuiMessageHandleService" sender="any" />
-<prescription type="service" package="com.sdu.didi.psnger" class="com.didi.travel.psnger.service.DiDiTravelService" sender="any" />
-<prescription type="service" package="com.gracecode.android.gojuon" class="com.gracecode.android.gojuon.service.PronounceService" sender="any" />
-<prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.getui.GetuiPushService" sender="any" />
-<prescription type="service" package="com.nfyg.hsbb" class="com.nfyg.hsbb.services.getui.GetuiIntentService" sender="any" />
-<prescription type="service" package="com.weico.international" class="com.weico.international.service.WeicoNewMsgPullService" sender="any" />
-<!-- Personal function -->
-<prescription type="service" class="com.baidu.location.f" sender="any" />
+<!-- Other push SDK -->
+<!-- Mobridge -->
+<prescription type="service" class="com.mobridge.MoPushService" sender="any" />
+<!-- Grandmobile -->
+<prescription type="service" class="cn.grandmobile.sdk.android.PushBroadcastReceiver" sender="any" />
+<prescription type="service" class="cn.grandmobile.sdk.android.PushService" sender="any" />
+<!-- Bomb -->
+<prescription type="service" class="cn.bmob.push.PushReceiver" sender="any" />
+<prescription type="service" class="cn.bmob.push.lib.service.PushService" sender="any" />
+<prescription type="service" class="cn.immob.sdk.net.DownloadService" sender="any" />
+<!-- Yunba -->
+<prescription type="service" class="io.yunba.android.core.YunBaService" sender="any" />
+<!-- Atom -->
+<prescription type="service" class="com.atom.push.sdk.AtomAlarmReceiver" sender="any" />
+<prescription type="service" class="com.atom.push.sdk.AtomPushActionCustomReceiver" sender="any" />
+<prescription type="service" class="com.atom.push.sdk.AtomPushService" sender="any" />
+<!-- MoPaas -->
+<prescription type="service" class="com.mopaas.backendmonitor.MonitorService" sender="any" />
+<prescription type="service" class="com.mopaas.pushservice.sdk.MPSPushService" sender="any" />
+<!-- CMCC -->
+<prescription type="service" class="com.cmcc.aoe.AoeService" sender="any" />
+<prescription type="service" class="com.cmcc.aoe.push.AOEService" sender="any" />
+<!-- WeCloud -->
+<prescription type="service" class="com.jiubang.go.push.PushServiceReceiver" sender="any" />
+<prescription type="service" class="com.jiubang.go.push.PushService" sender="any" />
+<prescription type="service" class="com.zihao.service.MyMsgService" sender="any" />
+<!-- AVOS -->
+<prescription type="service" class="com.avos.avoscloud.AVDefaultNotificationReceiver" sender="any" />
+<prescription type="service" class="com.avos.avoscloud.PushService" sender="any" />
+<!-- Cocos -->
+<prescription type="service" class="com.cocos.push.client.CCPushClientReceiver" sender="any" />
+<prescription type="service" class="com.cocos.push.service.CCPushService" sender="any" />
+<!-- mPush -->
+<prescription type="service" class="com.mrocker.push.service.PushService" sender="any" />
+<prescription type="service" class="com.mrocker.push.service.PushServiceReceiver" sender="any" />
+<!-- imofan -->
+<prescription type="service" class="com.imofan.android.basic.update.MFUpdateService" sender="any" />
+<!-- ixintui -->
+<prescription type="service" class="com.ixintui.push.PushService" sender="any" />
+<prescription type="service" class="com.ixintui.push.MediateService" sender="any" />
+
 </prescriptions>
